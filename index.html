@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap сайт Попов А. МКИСп12</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Одежда.рф</a>
+                </div>
+                <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">О нас</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--слайдер-->
+<div class="container">
+    <div class="row">
+        <div id="carousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/cat.jpg">
+                    <div class="carousel-caption">
+                        <p>Привет!</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/dog.jpg">
+                    <div class="carousel-caption">
+                        <p>У нас вы найдете много интересного</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/enot.jpg">
+                    <div class="carousel-caption">
+                        <p>Хороших покупок :)</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#carousel" class="left carousel-control" data-slide="prew">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<!--товары-->
+<div class="container content">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="list-group">
+                <a href="#" class="list-group-item">Футболки</a>
+                <a href="#" class="list-group-item">Джинсы</a>
+                <a href="#" class="list-group-item">Брюки</a>
+                <a href="#" class="list-group-item">Платья</a>
+                <a href="#" class="list-group-item">Куртки</a>
+            </div>
+        </div>
+        
+        <div class="col-md-8 products">
+            <div class="row">
+                <!--1-->
+                <div class="col-sm-4 col-xs-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="images/djinsi.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title"><a href="#">Джинсы</a></p>
+                        <p class="product-desc">Слим-модель</p>
+                        <p class="product-price">1000 руб.</p>
+                    </div>
+                </div>
+                
+                <!--2-->
+                <div class="col-sm-4 col-xs-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="images/baletki.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title"><a href="#">Балетки</a></p>
+                        <p class="product-desc">Розовые</p>
+                        <p class="product-price">500 руб.</p>
+                    </div>
+                </div>
+                
+                <!--3-->
+                <div class="col-sm-4 col-xs-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="images/botilon.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title"><a href="#">Ботильоны</a></p>
+                        <p class="product-desc">Модные</p>
+                        <p class="product-price">1100 руб.</p>
+                    </div>
+                </div>
+                
+                <!--4-->
+                <div class="col-sm-4 col-xs-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="images/ked.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title"><a href="#">Кеды</a></p>
+                        <p class="product-desc">Летние</p>
+                        <p class="product-price">6000 руб.</p>
+                    </div>
+                </div>
+
+                <!--5-->
+                <div class="col-sm-4 col-xs-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="images/kojKurtka.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title"><a href="#">Куртка</a></p>
+                        <p class="product-desc">Кожанная</p>
+                        <p class="product-price">2200 руб.</p>
+                    </div>
+                </div>
+
+                <!--6-->
+                <div class="col-sm-4 col-xs-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="images/sumka.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title"><a href="#">Сумка</a></p>
+                        <p class="product-desc">Женская</p>
+                        <p class="product-price">1400 руб.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
