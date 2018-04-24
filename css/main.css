@@ -14,7 +14,7 @@ img {
 .product {
  background: #fff none repeat scroll 0 0;
  border: 1px solid #c0c0c0;
- height: 390px;
+ height: 100%;
  overflow: hidden;
  padding: 25px 15px;
  position: relative;
@@ -26,7 +26,7 @@ img {
  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
 }
 .product-img {
- height: 270px;
+ height: 100%;
 }
 .product-title{
  margin-top: 10px;
@@ -49,4 +49,45 @@ img {
  color: #d51e08;
  font-size: 18px;
  font-weight: 500;
+}
+.info {
+ background: #fff none repeat scroll 0 0;
+ border: 1px solid #c0c0c0;
+ height: 100%;
+ overflow: hidden;
+ padding: 10px 10px;
+ position: relative;
+ text-align: center;
+ transition: all 0.5s ease 0s;
+ margin-bottom: 20px;
+ margin-top: 70px;
+ font-size: 1 vh;
+}
+.onas {
+ background: #fff none repeat scroll 0 0;
+ border: 1px solid #c0c0c0;
+ height: 100%;
+ overflow: hidden;
+ padding: 10px 10px;
+ position: relative;
+ text-align: center;
+ transition: all 0.5s ease 0s;
+ margin-bottom: 20px;
+ margin-top: 70px;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #f7f7f7;
 }
